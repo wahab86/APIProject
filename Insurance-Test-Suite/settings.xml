@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="0891765b-32d5-46ae-b8d3-3a836c23f496" name="Insurance Test Suite" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="0891765b-32d5-46ae-b8d3-3a836c23f496fileName">Insurance-Test-Suite</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="a534c627-7e73-42a5-b067-715544f7ccfc" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Add Secondary User" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="a534c627-7e73-42a5-b067-715544f7ccfcfileName">Add-Secondary-User</con:setting></con:settings><con:testStep type="restrequest" name="REST Request" id="38e1cd62-ddff-49a1-a624-3d710e820f5b"><con:settings/><con:config service="https://www.test-insurance.com" resourcePath="/api/v1/secondary-user" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="6b193149-36de-4da6-b9f5-a55510fb2bbe" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>"primaryPersonId": "100",
+  "secondaryPerson": {
+    "username": "Sharifi",
+    "email": "abdjd@gmaillcom",
+    "title": "Mr",
+    "firstName": "Khan",
+    "lastName": "Zazar",
+    "gender": "Male",
+    "maritalStatus": "Single",
+    "employmentStatus": "Empliyed",
+    "dateOfBirth": "202-12-2",
+    "languagePref": "Dari",
+    "password": "122345678"
+  },
+  "secondaryPersonMailingAddress": {
+    "addressType": "kABUL",
+    "addressLine1": "pANJSHIR",
+    "city": "Mazar",
+    "state": "Khair Khana",
+    "postalCode": "00023",
+    "countryCode": "00010"
+  }
+}
+</con:request><con:originalUri>https://www.test-insurance.com/api/v1/secondary-user</con:originalUri><con:credentials><con:selectedAuthProfile>Berear</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
